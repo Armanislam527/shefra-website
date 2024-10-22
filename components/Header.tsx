@@ -5,6 +5,7 @@ import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Menu } from 'lucide-react'
 import { ThemeToggle } from '@/components/ThemeToggle'
+import Image from 'next/image'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,8 +13,9 @@ const Header = () => {
   return (
     <header className="bg-background shadow-md">
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold text-primary">
-          Shefra
+        <Link href="/" className="flex items-center text-2xl font-bold text-primary">
+          
+          <span className="px-2">Shefra</span>
         </Link>
         <div className="hidden md:flex items-center space-x-4">
           <Link href="/" className="text-foreground hover:text-primary">Home</Link>
