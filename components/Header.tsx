@@ -17,10 +17,10 @@ const Header = () => {
         </Link>
         <div className="hidden md:flex items-center space-x-4">
           <Link href="/" className="text-foreground hover:text-primary">Home</Link>
-          <Link href="/about" className="text-foreground hover:text-primary">About</Link>
-          <Link href="/services" className="text-foreground hover:text-primary">Services</Link>
-          <Link href="/blog" className="text-foreground hover:text-primary">Blog</Link>
-          <Link href="/contact" className="text-foreground hover:text-primary">Contact</Link>
+          <Link href="/" className="text-foreground hover:text-primary">About</Link>
+          <Link href="#services" className="text-foreground hover:text-primary">Services</Link>
+          <Link href="/" className="text-foreground hover:text-primary">Blog</Link>
+          <Link href="#contact" className="text-foreground hover:text-primary">Contact</Link>
           <ThemeToggle />
         </div>
         <div className="md:hidden flex items-center space-x-4">
