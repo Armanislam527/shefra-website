@@ -11,10 +11,10 @@ const Hero = () => {
         </p>
         <div className="space-x-4">
           <Button asChild>
-            <Link href="/services">Our Services</Link>
+            <Link href="#services">Our Services</Link>
           </Button>
           <Button asChild variant="outline">
-            <Link href="/contact">Contact Us</Link>
+            <Link href="#contact">Contact Us</Link>
           </Button>
         </div>
       </div>

@@ -30,7 +30,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="py-20">
+    <section id="contact" className="py-20">
       <h2 className="text-3xl font-bold text-center mb-12">Contact Us</h2>
       <form onSubmit={handleSubmit} className="max-w-md mx-auto">
         <div className="mb-4">
