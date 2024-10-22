@@ -23,7 +23,7 @@ const Hero = () => {
       <div>
         <div className='flex fle-col justify-center items-center'>
           {currentTheme === 'dark' ? (
-            <Image src="/shefra-logo-arabic-text-removebg.png" height={200} width={400} alt="shefra-logo" />
+            <Image src="/shefra-logo-arabic-text-removebg.png" height={150} width={300} alt="shefra-logo" />
           ) : (
             <h1 className="text-4xl font-bold">Shefra</h1>
           )}
