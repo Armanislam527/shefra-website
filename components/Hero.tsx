@@ -25,7 +25,7 @@ const Hero = () => {
           {currentTheme === 'dark' ? (
             <Image src="/shefra-logo-arabic-text-removebg.png" height={150} width={300} alt="shefra-logo" />
           ) : (
-            <h1 className="text-4xl font-bold">Shefra</h1>
+            <Image src="/shefra-logo-arabic-text-white.png" height={150} width={300} alt="shefra-logo" />
           )}
         </div>
         <h1 className="text-4xl md:text-6xl font-bold mb-6">Empowering Your Digital Transformation</h1>
