@@ -2,12 +2,12 @@ import Image from 'next/image'
 import { Card, CardContent } from '@/components/ui/card'
 
 const technologies = [
-  { name: 'React', logo: '/react-logo.png', description: 'Building interactive user interfaces' },
-  { name: 'Next.js', logo: '/nextjs-logo.png', description: 'Server-side rendering and static site generation' },
-  { name: 'Node.js', logo: '/nodejs-logo.png', description: 'Scalable backend development' },
-  { name: 'TypeScript', logo: '/typescript-logo.png', description: 'Enhanced code quality and maintainability' },
-  { name: 'Python', logo: '/python-logo.png', description: 'Versatile language for various applications' },
-  { name: 'Docker', logo: '/docker-logo.png', description: 'Containerization for easy deployment' },
+  { name: 'React', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg', description: 'Building interactive user interfaces' },
+  { name: 'Next.js', logo: 'https://cdn.worldvectorlogo.com/logos/nextjs-2.svg', description: 'Server-side rendering and static site generation' },
+  { name: 'Node.js', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', description: 'Scalable backend development' },
+  { name: 'TypeScript', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg', description: 'Enhanced code quality and maintainability' },
+  { name: 'Python', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg', description: 'Versatile language for various applications' },
+  { name: 'Docker', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg', description: 'Containerization for easy deployment' },
 ]
 
 const Technologies = () => {

@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Menu } from 'lucide-react'
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -14,14 +15,16 @@ const Header = () => {
         <Link href="/" className="text-2xl font-bold text-primary">
           Shefra
         </Link>
-        <div className="hidden md:flex space-x-4">
+        <div className="hidden md:flex items-center space-x-4">
           <Link href="/" className="text-foreground hover:text-primary">Home</Link>
           <Link href="/about" className="text-foreground hover:text-primary">About</Link>
           <Link href="/services" className="text-foreground hover:text-primary">Services</Link>
           <Link href="/blog" className="text-foreground hover:text-primary">Blog</Link>
           <Link href="/contact" className="text-foreground hover:text-primary">Contact</Link>
+          <ThemeToggle />
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden flex items-center space-x-4">
+          <ThemeToggle />
           <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
             <Menu className="h-6 w-6" />
           </Button>
