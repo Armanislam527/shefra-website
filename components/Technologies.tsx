@@ -5,9 +5,15 @@ const technologies = [
   { name: 'React', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg', description: 'Building interactive user interfaces' },
   { name: 'Next.js', logo: '/nextjs-icon-dark-background.svg', description: 'Server-side rendering and static site generation' },
   { name: 'Node.js', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg', description: 'Scalable backend development' },
-  { name: 'TypeScript', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg', description: 'Enhanced code quality and maintainability' },
   { name: 'Python', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg', description: 'Versatile language for various applications' },
-  { name: 'Docker', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg', description: 'Containerization for easy deployment' },
+  { name: 'Java', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg', description: 'Object-oriented programming language for building applications' },
+  { name: 'Spring Boot', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg', description: 'Framework for building Java applications with ease' },
+  { name: 'MongoDB', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg', description: 'NoSQL database for modern applications' },
+  { name: 'SQL', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg', description: 'Structured Query Language for managing databases' },
+  { name: 'C#', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg', description: 'Programming language for .NET applications' },
+  { name: '.NET', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg', description: 'Framework for building Windows applications' },
+  { name: 'Go', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg', description: 'Statically typed language for systems programming' },
+  { name: 'Angular', logo: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/angular/angular-original.svg', description: 'Platform for building mobile and desktop web applications' },
 ]
 
 const Technologies = () => {
