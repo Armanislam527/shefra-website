@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p>123 Tech Street</p>
-            <p>Silicon Valley, CA 94000</p>
+            <p>Rajapur</p>
+            <p>Pabna Sadar, Pabna, Bangladesh 6600</p>
             <p>Email: info@shefra.com</p>
             <p>Phone: (123) 456-7890</p>
           </div>
