@@ -19,6 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/shefra-logo-arabic-text-white.png">
+      </head>
+      
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
