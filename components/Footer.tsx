@@ -30,9 +30,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
-              <a href="#" className="text-foreground hover:text-primary"><Facebook /></a>
+              <a href="https://www.facebook.com/profile.php?id=61567192271678" className="text-foreground hover:text-primary"><Facebook /></a>
               <a href="#" className="text-foreground hover:text-primary"><Twitter /></a>
-              <a href="#" className="text-foreground hover:text-primary"><Linkedin /></a>
+              <a href="https://www.linkedin.com/company/shefra/" className="text-foreground hover:text-primary"><Linkedin /></a>
               <a href="#" className="text-foreground hover:text-primary"><Instagram /></a>
             </div>
           </div>
